@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../static/Wall8.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(218, 68, 31);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 2px 5px rgb(37, 20, 20);
+  
+}
+.logo{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: black;
+    letter-spacing: 3px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.nav-links a:hover{
+    background-color: rgb(240, 140, 110);
+    color: black;
+    transition: 0.8s ease-in;
+    
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px;
+
+}
+.burger:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.8s ease-in;
+}
+
+
+.btn{
+    margin: 35px 2px;
+    display: block;
+    padding: 10px 12px;
+    background: rgba(255, 68, 0, 0.815) ;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    
+} 
+input[type=text], textarea {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    width: 40%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}
