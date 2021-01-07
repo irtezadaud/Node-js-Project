@@ -1,1 +1,0 @@
-console.log('Irza is a good boy.');
